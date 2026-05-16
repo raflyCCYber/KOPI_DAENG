@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "category": "Coffee",
+    "description": "Espresso pekat dengan karakter strong.",
+    "price": 18000,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "category": "Coffee",
+    "description": "Perpaduan espresso dan susu dengan foam lembut.",
+    "price": 22000,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Caramel Latte",
+    "category": "Coffee",
+    "description": "Latte creamy dengan sentuhan karamel manis.",
+    "price": 25000,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "French Fries",
+    "category": "Snack",
+    "description": "Kentang goreng gurih cocok untuk teman ngopi.",
+    "price": 15000,
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Banana Fritter",
+    "category": "Snack",
+    "description": "Pisang goreng hangat dengan tekstur renyah.",
+    "price": 14000,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1599599810694-b5ac4dd33c1f?auto=format&fit=crop&w=800&q=80"
+  }
+]

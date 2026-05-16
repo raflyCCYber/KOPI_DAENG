@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: daeng-kopi-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node api-server.mjs
+    healthCheckPath: /api/health
+    envVars:
+      - key: DB_DIR
+        value: /opt/render/project/data/db
+    disk:
+      name: daeng-kopi-data
+      mountPath: /opt/render/project/data
+      sizeGB: 1

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ORD1001",
+    "customerName": "Contoh Customer",
+    "tableId": "MEJA-03",
+    "deviceId": "sample-device-1",
+    "items": [
+      {
+        "id": 1,
+        "name": "Espresso",
+        "price": 18000,
+        "qty": 2
+      }
+    ],
+    "total": 36000,
+    "status": "completed",
+    "paymentMethod": "cash",
+    "paymentStatus": "paid_at_cashier",
+    "cashierNote": "Contoh order selesai.",
+    "date": "15/05/2026",
+    "timestamp": "2026-05-15T08:30:00.000Z"
+  },
+  {
+    "id": "ORD1002",
+    "customerName": "Sample Online",
+    "tableId": "MEJA-07",
+    "deviceId": "sample-device-2",
+    "items": [
+      {
+        "id": 2,
+        "name": "Cappuccino",
+        "price": 22000,
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "name": "French Fries",
+        "price": 15000,
+        "qty": 1
+      }
+    ],
+    "total": 37000,
+    "status": "pending",
+    "paymentMethod": "online",
+    "paymentStatus": "waiting_proof_verification",
+    "paymentProofStatus": "sent_whatsapp",
+    "cashierNote": "Menunggu verifikasi bukti pembayaran.",
+    "date": "16/05/2026",
+    "timestamp": "2026-05-16T02:15:00.000Z"
+  }
+]

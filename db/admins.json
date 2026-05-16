@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ADMIN001",
+    "username": "kopidaeng88",
+    "password": "sha256:__SET_ADMIN_PASSWORD_SHA256__",
+    "name": "Owner",
+    "email": "owner@example.com",
+    "role": "superadmin"
+  }
+]
